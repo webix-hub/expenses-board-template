@@ -1,0 +1,45 @@
+.webix_toolbar {
+    .green {
+        background-color: #55CD97;
+    }
+    .status {
+        border-radius: 50%;
+        border: 2px solid #FFFFFF;
+        box-sizing: content-box;
+        display: block;
+        position: relative;
+        bottom: 12px;
+        right: -32px;
+        height: 8px;
+        width: 8px;
+    }
+    .user {
+        cursor: pointer;
+        .webix_template {
+            padding: 0;
+            display: flex;
+        }
+    }
+    .userInner {
+        display: flex;
+        align-items: center;
+    }
+    .userAvatar {
+        width: 44px;
+        height: 44px;
+        position: relative;
+        margin-right: 12px;
+    }
+    .userImage {
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        width: 44px;
+        height: 44px;
+    }
+    .userName {
+        display: flex;
+        align-items: center;
+        user-select: none; 
+    }
+}

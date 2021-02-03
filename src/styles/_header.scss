@@ -1,0 +1,40 @@
+.webix_toolbar {
+    .webix_badge {
+        border: 2px solid #FFFFFF;
+        box-sizing: content-box;
+        background-color: #FF8C4C;
+        line-height: 16px;
+        min-width: auto;
+        padding: 0;
+        height: 16px;
+        width: 16px;
+    }
+    .headerMulticombo {
+        position: relative;
+        &:after {
+            display: inline-block;
+            cursor: pointer;
+            content: "\F349";
+            color: #94A1B3;
+            font: normal normal normal 20px/1 "Material Design Icons";
+            font-size: 20px;
+            text-rendering: auto;
+            line-height: inherit;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+        }
+        .webix_inp_static {
+            margin-top: 3px;
+        }
+        .webix_multicombo_value, .webix_multicombo_tag {
+            background-color: #ebedf0;;
+            .webix_multicombo_delete {
+                &:after {
+                    color: #94a1b3;
+                }
+            }
+        }
+    }
+}
